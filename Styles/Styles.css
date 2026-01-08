@@ -13,6 +13,10 @@
 
 header{
     background-color: #FFF8F3;
+    background-image: url(../Images/developer.png), url(../Images/header_bg.png);
+ 
+    background-repeat: no-repeat;
+    background-position: 23px 38px, bottom right;
 }
 .btn{
     background-color: #FD6E0A;
@@ -22,6 +26,7 @@ header{
     color: white;
     font-weight: bold;
     font-size: 20px;
+    cursor: pointer;
 }
 /* main css */
 nav{
@@ -43,6 +48,7 @@ nav .menu{
 
 .menu li a{
     text-decoration: none;
+    color: #757575;
 }
 .logo{
     font-size: 45px;
@@ -50,4 +56,40 @@ nav .menu{
 }
 .logo-color{
     color: #FD6E0A;
+}
+
+#banner{
+    
+    margin: 47px 38px 0px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#banner .banner-content{
+    max-width: 585px;
+}
+.banner-content h2{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 5px;
+    
+}
+.banner-content h1{
+    font-size: 85px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.banner-content p{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+#banner .banner-image img{
+    max-width: 585px;
+    vertical-align: middle;
+    
 }
